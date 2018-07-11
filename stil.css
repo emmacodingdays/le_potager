@@ -3,6 +3,7 @@ h1{
 	font-family: impact;
 	/*text-decoration: blink;*/
 }
+
 /*.banniere{
 	max-height: : 300px;
 	max-width: : 180px;
@@ -12,15 +13,19 @@ h1{
 	background-attachment: fixed;
 	text-align: center;*/
 }
+
+
 header{
 	background-image: url("fruits_legumes.jpg");
 }
+
 mark{
 	color: orange;
 	background-color: transparent;
 	font-size: 30px;
 	text-decoration: underline;
 }
+
 body{
 	background-image: url("carottes.jpg"); 
 	background-attachment: fixed;
@@ -69,3 +74,49 @@ p {
 .test{
 	background-color: white;
 }
+
+.accueil
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.accueil a{
+	color: white;
+
+}
+
+.haut a{
+	color: white;
+}
+/*.haut{
+	display: flex;
+	justify-content: flex-start;
+}*/
+
+.saisons {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.saisons > h1,
+.les4 {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.les4 {
+    background: right/contain content-box border-box no-repeat
+        url("carotte.jpg") white;
+}
+
+.les4 > h2,
+.les4 > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+
