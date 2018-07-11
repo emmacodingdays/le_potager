@@ -1,0 +1,71 @@
+h1{
+	font-size: 40px;
+	font-family: impact;
+	/*text-decoration: blink;*/
+}
+/*.banniere{
+	max-height: : 300px;
+	max-width: : 180px;
+	background-image: url("fruit_legume.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	text-align: center;*/
+}
+header{
+	background-image: url("fruits_legumes.jpg");
+}
+mark{
+	color: orange;
+	background-color: transparent;
+	font-size: 30px;
+	text-decoration: underline;
+}
+body{
+	background-image: url("carottes.jpg"); 
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header ul
+{
+	display: flex;
+	list-style: none;
+}
+
+header li
+{
+	margin-right: 400px;
+
+}
+
+hgroup {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    padding-right: 16px;
+    border-right: 10px solid #00c8d7;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.test{
+	background-color: white;
+}
